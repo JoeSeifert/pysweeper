@@ -1,2 +1,2 @@
-Minesweeper Game in Python!
+Open-source minesweeper Game in Python!
 Uses tkinter.
