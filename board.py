@@ -94,7 +94,7 @@ class Minesweeper:
 
         self.make_mine_count()
         self.game_canvas = tk.Canvas(self.root, width=self.box_size * self.game.ncols,
-                                     height=self.box_size * self.game.nrows)
+                                     height=self.box_size * self.game.nrows, highlightthickness=0)
         self.game_canvas.pack()
         # self.make_debug_label()
         for i in range(self.game.ncols):
